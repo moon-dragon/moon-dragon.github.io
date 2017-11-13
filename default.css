@@ -1,0 +1,42 @@
+
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+li {
+	display: inline;
+	float: left;
+}
+
+li a {
+	color: white;
+	text-align: center;
+	padding: 18px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+body h1 {
+	font-variant: small-caps;
+	background: url(face.jpg) no-repeat;
+	width: 900px;
+	height: 400px;
+	text-align: center;
+}
+
+body {
+	padding-left: 11em;
+	color: #ffffff;
+	background-color: #a8b6ea
+}	
+
