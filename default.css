@@ -1,46 +1,83 @@
-.header h2{
-	padding: 30px;
-	text-align: center;
-	font-variant: small-caps;
-	font: 30px Skia;
-	color: white;
-	border-style: solid;
-}
-
+/* color and padding of header*/
 .header {
 	padding: 30px;
-	background-color: rgba(0, 0, 0, 0.68)
+	background-color: white;
 }
+
+/* My name, centered formatted*/
+.header h1{
+	padding: 30px;
+	text-align: center;
+	font-variant: small-caps;
+	font: 50px "Savoye LET";
+	color: #FE3562;
+	border: 5px solid #433D3E;
+}
+
+/* three adjectives below name*/
+
+.header h2 {
+	color:#E7A07F;
+	font: small-caps 15px Skia;
+	text-align: center;
+}
+
+/* Creates a smooth scrolling expierience with the sticky nav in place*/
+.nav-wrapper {
+	height: 70px;
+	background-color: rgba(255, 255, 255, 0.93);
+}
+
+/*color and overflow*/
 
 #navbar {
+	height: 70px;
 	overflow: hidden;
-	background-color: rgba(0, 0, 0, 0.68)
+	background-color: rgba(255, 255, 255, 0.93);
+	color: rgba(255, 255, 255, 0.03);
 }
 
-#navbar a {
-	float: left;
-	display: block;
-	color: #f2f2f2;
-	text-align: center;
+/* Makes the font of all nav bar items */
+#navbar ul {
+	list-style-type: none;
 	padding: 14px 16px;
-	text-decoration: none;
 	font: 17px Skia;
-	font-variant: small-caps;
+	/*font-variant: small-caps;*/
 }
+
+/* positions the nav bar words next to each other*/
+#navbar li {
+    float: left;
+	margin-left: 21%;
+}
+
+/* makes entire block click-able and removes hypertext and changes color*/
+#navbar a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+	color: #433D3E;
+}
+
+/* when nav items are hovered over*/
 
 #navbar a:hover {
 	background-color: #ddd;
 	color: black;
 }
 
+/* when on the active page, the indicator*/
+
 #navbar a.active {
-	background-color: rgba(21, 21, 23, 0.8);
-	color: white;
+	border-bottom-style: solid;
+	border-bottom-color: #FE3562;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
 }
 
-.content {
-	padding: 16px;
-}
+
+/* create the nav bar to stick to the top the entire width of screen*/
 
 .sticky {
 	position: fixed;
@@ -48,24 +85,79 @@
 	width: 100%
 }
 
+/* padding in between sticky element and content*/
+
 .sticky + .content {
 	padding-top: 60px;	
 }
 
-body {
-  margin: 0;
+
+
+/* all container headings have same style*/
+.container h2 {
+	font: small-caps 25px Skia;
+	color: #FEFBFB;
 }
-	/*body h1 {
-		font-variant: small-caps;
-		background: url(face.jpg) no-repeat;
-		width: 100%;
-		height: 400px;
-		text-align: center;
-	}
+
+/* qualities all containers would have as default*/
+.container {
+	font-family: Skia;
+	padding: 10px;
+	height: 400px;
+	text-align: center;
+	margin: 50px;
+}
+
+/*Intro section is set to default settings*/
+#intro {
+	background-color: #CFBCB0 ;
+}
+
+#intro .container p {
+	width: 500px;
+	float: right;
+	text-align: left;
+	padding-top: 5px;
+	padding-left: 30px;
+	color: #433D3E;
+}
+
+#intro .container  img{
+	float: left;
+	border-radius: 100%;
+	border: 1px solid #FE3562;
+}
+
+/* Adjust so that image and text are paired together*/
+#imagetext {
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+#education .container {
+	border-style: solid;
+	border-color: #433D3E;
+	border-right-style: none;
+	border-left-style: none;
+}
+
+#education h2 {
+	color: #433D3E;
+}
+
+#skills {
+	background-color: #CFBCB0 ;
+}
+
+/* */
+
+body {
+  margin: 0;}
+
+/* padding of overall content*/
+
+.content {
 	
-	body {
-		padding-left: 11em;
-		color: #ffffff;
-		background-color: #a8b6ea
-	}	*/
+}
+
 	
