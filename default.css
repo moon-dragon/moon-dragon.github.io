@@ -226,6 +226,35 @@ body {
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
+    
+    .nav-wrapper {
+    	height: 70px;
+    	background-color: rgba(255, 255, 255, 0.93);
+    	overflow: visible;
+    }
+    
+    /*color and overflow*/
+    
+    #navbar {
+    	height: 70px;
+    	overflow: visible;
+    	background-color: rgba(255, 255, 255, 0.93);
+    	color: rgba(255, 255, 255, 0.03);
+    }
+    
+    /* Makes the font of all nav bar items */
+    #navbar ul {
+    	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
+    	font: 17px Skia;
+    	/*font-variant: small-caps;*/
+    }
+    
+    /* positions the nav bar words next to each other*/
+    #navbar li a{
+    	display: block;
+	}
     #intro .container p {
         width: 100%;
         float: center;
@@ -241,3 +270,4 @@ body {
 		box-sizing: border-box;
 	}
 	
+}
