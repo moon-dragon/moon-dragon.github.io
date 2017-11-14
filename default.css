@@ -104,15 +104,12 @@
 .container {
 	font-family: Skia;
 	padding: 10px;
-	height: 400px;
 	text-align: center;
 	margin: 50px;
+	max-width: 100%; 
+	height: auto;
 }
 
-/*.container:hover {
-		background-color: rgba(246, 245, 244, 0.81);
-	
-}*/
 
 /*Intro section is set to default settings*/
 #intro {
@@ -147,7 +144,6 @@
 
 
 #interests .container {
-	height: 800px;
 	border-style: solid;
 	border-color: #433D3E;
 	border-right-style: none;
@@ -175,9 +171,7 @@
 
 
 #firstproject {
-	background-color: #CFBCB0 ;
-	height: 1000px;
-	
+	background-color: #CFBCB0 ;	
 }
 
 #firstproject h2{
