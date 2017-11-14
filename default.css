@@ -12,6 +12,8 @@
 	font: 50px "Savoye LET";
 	color: #FE3562;
 	border: 5px solid #433D3E;
+	max-width: 100%; 
+	height: auto;
 }
 
 /* three adjectives below name*/
@@ -27,13 +29,14 @@
 .nav-wrapper {
 	height: 70px;
 	background-color: rgba(255, 255, 255, 0.93);
+	overflow: visible;
 }
 
 /*color and overflow*/
 
 #navbar {
 	height: 70px;
-	overflow: hidden;
+	overflow: visible;
 	background-color: rgba(255, 255, 255, 0.93);
 	color: rgba(255, 255, 255, 0.03);
 }
