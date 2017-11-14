@@ -1,33 +1,36 @@
 /* color and padding of header*/
+
 .header {
 	padding: 30px;
 	background-color: white;
 }
 
 /* My name, centered formatted*/
-.header h1{
+
+.header h1 {
 	padding: 30px;
 	text-align: center;
 	font-variant: small-caps;
 	font: 50px "Savoye LET";
 	color: #FE3562;
 	border: 5px solid #433D3E;
-	max-width: 100%; 
+	max-width: 100%;
 	height: auto;
 }
 
 /* three adjectives below name*/
 
 .header h2 {
-	color:#E7A07F;
+	color: #E7A07F;
 	font: small-caps 15px Skia;
 	text-align: center;
-	
 }
 
 /* Creates a smooth scrolling expierience with the sticky nav in place*/
+
 .nav-wrapper {
-	height: 70px;
+	max-width: 100%;
+	height: auto;
 	background-color: rgba(255, 255, 255, 0.93);
 	overflow: visible;
 }
@@ -35,13 +38,15 @@
 /*color and overflow*/
 
 #navbar {
-	height: 70px;
+	max-width: 100%;
+	height: auto;
 	overflow: visible;
 	background-color: rgba(255, 255, 255, 0.93);
 	color: rgba(255, 255, 255, 0.03);
 }
 
 /* Makes the font of all nav bar items */
+
 #navbar ul {
 	list-style-type: none;
 	padding: 14px 16px;
@@ -50,16 +55,18 @@
 }
 
 /* positions the nav bar words next to each other*/
+
 #navbar li {
-    float: left;
+	float: left;
 	margin-left: 21%;
 }
 
 /* makes entire block click-able and removes hypertext and changes color*/
+
 #navbar a {
-    display: block;
-    padding: 8px;
-    text-decoration: none;
+	display: block;
+	padding: 8px;
+	text-decoration: none;
 	color: #433D3E;
 }
 
@@ -92,31 +99,34 @@
 /* padding in between sticky element and content*/
 
 .sticky + .content {
-	padding-top: 60px;	
+	padding-top: 60px;
 }
 
 
 
 /* all container headings have same style*/
+
 .container h2 {
 	font: small-caps bold 25px Skia;
 	color: #FEFBFB;
 }
 
 /* qualities all containers would have as default*/
+
 .container {
 	font-family: Skia;
 	padding: 10px;
 	text-align: center;
 	margin: 50px;
-	max-width: 100%; 
+	max-width: 100%;
 	height: auto;
 }
 
 
 /*Intro section is set to default settings*/
+
 #intro {
-	background-color: #CFBCB0 ;
+	background-color: #CFBCB0;
 }
 
 #intro .container p {
@@ -129,22 +139,29 @@
 	font-size: 20px;
 }
 
-#intro .container  img{
+#intro .container  img {
 	float: right;
 	border-radius: 100%;
 	border: 1px solid #FE3562;
 }
 
 /* Adjust so that image and text are paired together*/
+
 #imagetext {
 	display: inline-block;
 	box-sizing: border-box;
 }
 
+#imagetext img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 100%;
+	border: 1px solid #FE3562;
+	padding: 20px;
+}
 /*#intro .container .circle {
 	display: inline-block;
 }*/
-
 
 #interests .container {
 	border-style: solid;
@@ -168,16 +185,30 @@
 	font-weight: bold;
 }
 
-#skills {
-	background-color: #CFBCB0 ;
+.circles img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 200px;
+	border: 1px solid #FE3562;
+	padding: 20px;"
 }
 
+#skills {
+	background-color: #CFBCB0;
+}
+
+.container h3 {
+	font-family: Skia;
+	font-size: 18px;
+ 	color: #FE3562;
+ 	
+}
 
 #firstproject {
-	background-color: #CFBCB0 ;	
+	background-color: #CFBCB0;
 }
 
-#firstproject h2{
+#firstproject h2 {
 	font-size: 30px;
 	color: #433D3E;
 }
@@ -187,82 +218,63 @@
 	font-variant: normal;
 }
 
-
 #firstproject p {
 	text-align: center;
 	color: #433D3E;
-	
 }
 
 #firstproject p a {
 	text-align: center;
 	color: #FE3562;
-	
-	
 }
 
 /* */
 
 #contact {
-	background-color: #CFBCB0 ;
+	background-color: #CFBCB0;
 }
 
-#contact ul{
+#contact ul {
 	list-style-type: none;
 	padding: 14px 16px;
 	font: 17px Skia;
 }
+
 #contact a {
-    display: block;
-    padding: 8px;
-    text-decoration: none;
+	display: block;
+	padding: 8px;
+	text-decoration: none;
 	color: #433D3E;
 }
 
 body {
-  margin: 0;}
+	margin: 0;
+	font-family: Skia;
+}
 
 /* padding of overall content*/
 
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    
-    .nav-wrapper {
-    	height: 70px;
-    	background-color: rgba(255, 255, 255, 0.93);
-    	overflow: visible;
-    }
-    
-    /*color and overflow*/
-    
-    #navbar {
-    	height: 70px;
-    	overflow: visible;
-    	background-color: rgba(255, 255, 255, 0.93);
-    	color: rgba(255, 255, 255, 0.03);
-    }
-    
-    /* Makes the font of all nav bar items */
-    #navbar ul {
-    	list-style-type: none;
-    	margin: 0;
-    	padding: 0;
-    	font: 17px Skia;
-    	/*font-variant: small-caps;*/
-    }
-    
-    /* positions the nav bar words next to each other*/
-    #navbar li a{
-    	display: block;
+	/* For mobile phones: */
+	
+	.header {
+		padding: 30px;
+		background-color: black;
 	}
-    #intro .container p {
-        width: 100%;
-        float: center;
-        
-    }
-	#intro .container img {
+	
+	#intro {
+		float: center;
+	}
+	
+	#intro .container p {
 		width: 100%;
 		float: center;
+	}
+	
+	#imagetext img {
+		width: 100%;
+		float: center;
+		padding: 0;
 	}
 	
 	#imagetext {
@@ -270,4 +282,9 @@ body {
 		box-sizing: border-box;
 	}
 	
+	.circles img {
+		width: 40%;
+		height: auto;
+		padding: 0;
+	}
 }
