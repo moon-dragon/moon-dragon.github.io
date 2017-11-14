@@ -210,6 +210,18 @@
 	background-color: #CFBCB0 ;
 }
 
+#contact ul{
+	list-style-type: none;
+	padding: 14px 16px;
+	font: 17px Skia;
+}
+#contact a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+	color: #433D3E;
+}
+
 body {
   margin: 0;}
 
