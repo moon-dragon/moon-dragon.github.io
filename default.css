@@ -257,6 +257,29 @@ body {
 @media only screen and (max-width: 736px) {
 	/* For mobile phones: max is the iphone6 plus */
 	
+	#navwrapper {
+		width: 100%;
+		height: auto;	
+	}
+	
+	#navbar {
+		width: 100%;
+		height: auto;
+		float: none;	
+	}
+	
+	
+	#navbar li {
+		width: 100%;
+		height: auto;
+		list-style: none;
+		float: none;
+	}
+	
+	#navabar a {
+		display: block;
+	}
+	
 	
 	#intro {
 		float: center;
