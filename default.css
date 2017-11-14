@@ -224,8 +224,13 @@ body {
 
 /* padding of overall content*/
 
-.content {
-	
-}
-
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #intro .container p {
+        width: 100%;
+        
+    }
+	#intro .container img {
+		width: 100%;
+	}
 	
