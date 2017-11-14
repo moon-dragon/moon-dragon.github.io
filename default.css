@@ -20,6 +20,7 @@
 	color:#E7A07F;
 	font: small-caps 15px Skia;
 	text-align: center;
+	
 }
 
 /* Creates a smooth scrolling expierience with the sticky nav in place*/
@@ -95,7 +96,7 @@
 
 /* all container headings have same style*/
 .container h2 {
-	font: small-caps 25px Skia;
+	font: small-caps bold 25px Skia;
 	color: #FEFBFB;
 }
 
@@ -108,6 +109,11 @@
 	margin: 50px;
 }
 
+/*.container:hover {
+		background-color: rgba(246, 245, 244, 0.81);
+	
+}*/
+
 /*Intro section is set to default settings*/
 #intro {
 	background-color: #CFBCB0 ;
@@ -116,14 +122,15 @@
 #intro .container p {
 	width: 500px;
 	float: right;
-	text-align: left;
-	padding-top: 5px;
+	text-align: center;
+	padding-top: 20px;
 	padding-left: 30px;
 	color: #433D3E;
+	font-size: 20px;
 }
 
 #intro .container  img{
-	float: left;
+	float: right;
 	border-radius: 100%;
 	border: 1px solid #FE3562;
 }
@@ -134,22 +141,74 @@
 	box-sizing: border-box;
 }
 
-#education .container {
+/*#intro .container .circle {
+	display: inline-block;
+}*/
+
+
+#interests .container {
+	height: 800px;
 	border-style: solid;
 	border-color: #433D3E;
 	border-right-style: none;
 	border-left-style: none;
 }
 
-#education h2 {
+#interests ul li {
+	display: block;
+	padding: 14px 16px;
+	list-style-type: none;
+	text-align: center;
+	float: left;
+	border: 1px solid #FE3562;
+	border-radius: 10%;
+}
+
+#interests h2 {
 	color: #433D3E;
+	font-weight: bold;
 }
 
 #skills {
 	background-color: #CFBCB0 ;
 }
 
+
+#firstproject {
+	background-color: #CFBCB0 ;
+	height: 1000px;
+	
+}
+
+#firstproject h2{
+	font-size: 30px;
+	color: #433D3E;
+}
+
+#firstproject h3 {
+	color: #FE3562;
+	font-variant: normal;
+}
+
+
+#firstproject p {
+	text-align: center;
+	color: #433D3E;
+	
+}
+
+#firstproject p a {
+	text-align: center;
+	color: #FE3562;
+	
+	
+}
+
 /* */
+
+#contact {
+	background-color: #CFBCB0 ;
+}
 
 body {
   margin: 0;}
