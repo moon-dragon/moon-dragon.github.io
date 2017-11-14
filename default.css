@@ -254,13 +254,9 @@ body {
 
 /* padding of overall content*/
 
-@media only screen and (max-width: 768px) {
-	/* For mobile phones: */
+@media only screen and (max-width: 736px) {
+	/* For mobile phones: max is the iphone6 plus */
 	
-	.header {
-		padding: 30px;
-		background-color: black;
-	}
 	
 	#intro {
 		float: center;
