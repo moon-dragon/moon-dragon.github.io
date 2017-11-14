@@ -307,3 +307,33 @@ body {
 		padding: 0;
 	}
 }
+
+@media only screen and (max-width: 1200px) {
+	/* breakpoint for tablet*/
+	#intro {
+		float: center;
+	}
+	
+	#intro .container p {
+		width: 100%;
+		float: center;
+	}
+	
+	#imagetext img {
+		width: 100%;
+		float: center;
+		padding: 0;
+	}
+	
+	#imagetext {
+		display: inline-block;
+		box-sizing: border-box;
+	}
+	
+	.circles img {
+		width: 40%;
+		height: auto;
+		padding: 0;
+	}
+	
+}
