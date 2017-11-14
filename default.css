@@ -256,6 +256,19 @@ body {
 
 @media only screen and (max-width: 736px) {
 	/* For mobile phones: max is the iphone6 plus */
+	.header h1 {
+		font: 90px "Savoye LET";
+		color: #FE3562;
+		border: 5px solid #433D3E;
+		max-width: 100%;
+		height: auto;
+	}
+	
+	.header h2 {
+		color: #E7A07F;
+		font: small-caps 30px Skia;
+		text-align: center;
+	}
 	
 	#navwrapper {
 		width: 100%;
@@ -274,6 +287,8 @@ body {
 		height: auto;
 		list-style: none;
 		float: none;
+		font-size: 40px;
+		
 	}
 	
 	#navabar a {
