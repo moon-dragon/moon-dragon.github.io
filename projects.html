@@ -8,19 +8,28 @@
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	
 	<link rel="stylesheet" type="text/css" href="default.css">
+	<meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
 	
 	<title>Stephanie Mondragon | UCI Informatics Undergrad</title>
 </head>
-<body onscroll="stickFunction()">
-	<div class = "nav-wrapper">
-		<div id ="navbar">
-			<ul>
-				<li><a href="index.html">About Me</a></li>
-				<li><a class="active" href="projects.html">Projects</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</div>
-	</div>
+<body>
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	    </div>
+	    <ul class="nav navbar-nav">
+	      <li><a class="active" href="index.html">About Me</a></li>
+	      <li><a href="projects.html">Projects</a></li>
+	      <li><a href="contact.html">Contact</a></li>
+	      <li><a href="final.html">Final</a></li>
+	    </ul>
+	  </div>
+	</nav>
 	
 	<div class="header">
 		<h1>Stephanie G. Mondragon</h1>
@@ -28,27 +37,50 @@
 		<h2>Reliable | Intuitive | Friendly</h2>
 	</div>
 	
-	<section id = "firstproject">
+		<img src="contact-divider.png" alt="divider" style=" width:100%; height:5em" style=" text-align: center;">
+	
+	
+	<section id = "project">
 		<div class="container">
-			<img src="logo.png" alt="yummi logo">
+			<img src="SendGrid-Logo.png" alt="sendgrid logo" style=" width:auto; height:8em">
 			
-			<h2>Yummy User Interface Project</h2>
+			<h2>Bloom Filter Database Project</h2>
 			
 			<h3>Overview</h3>
 			
-			<p>This project involved conducting research in the form of user interviews, competitive analysis, use cases, scenarios etc. to improve the user experience for the Yummi application. Yummi is a food journaling application. My team and I enhanced the user’s posting and filtering experience. The filter feature will allow users to browse through their and friends’ photos in an easier and more efficient manner just as the posting feature will also be efficient.</p>
+			<p>Currently I am working on my capstone project at SendGrid. SendGrid helps companies send their emails to customers. I am working with Go language, MySQL, and Grafana. My team and I are attempting to maximize the way an emails are searched in the database. We are using the bloom filter data structures to create a client/server simulation. This project is still under way and I expect to post more on it soon. </p>
 			
 			<div class = "circles">
-				<img src="yummi2.jpg" style="border-radius: 5%; border: 1px solid #FE3562; width:auto; height:18em;padding: 20px"alt="yummi filtering screen">
+				<img src="bloom.png" style="border-radius: 5%; border: 1px solid #FE3562; width:auto; height:18em;padding: 20px"alt="bloom filter diagram">
 				
-				<img src="yummi3.jpg" style="border-radius: 5%; border: 1px solid #FE3562; width:auto; height:18em;padding: 20px"alt="yummi location screen">
+				<img src="sendgriddoc.png" style="border-radius: 5%; border: 1px solid #FE3562; width:auto; height:18em;padding: 20px"alt="sendgrid slide">
 			</div>
 			
-			<p><a href="https://projects.invisionapp.com/share/SNC1FNDMJ#/screens/236875878_After_Selecting_Filter"> Click here to see a demo! </a></p>
+			<p><a href="https://github.com/vlam321/Inf191BloomFilter"> Click here to see the gitHub repository!</a></p>
 		</div>
 	</section>
 	
+	
 
+<section id = "project">
+	<div class="container">
+		<img src="logo.png" alt="yummi logo" style=" width:auto; height:12em">
+		
+		<h2>Yummi User Interface Project</h2>
+		
+		<h3>Overview</h3>
+		
+		<p>This project involved conducting research in the form of user interviews, competitive analysis, use cases, scenarios etc. to improve the user experience for the Yummi application. Yummi is a food journaling application. My team and I enhanced the user’s posting and filtering experience. The filter feature will allow users to browse through their and friends’ photos in an easier and more efficient manner just as the posting feature will also be efficient.</p>
+		
+		<div class = "circles">
+			<img src="yummi2.jpg" style="border-radius: 5%; border: 1px solid #FE3562; width:auto; height:18em;padding: 20px"alt="yummi filtering screen">
+			
+			<img src="yummi3.jpg" style="border-radius: 5%; border: 1px solid #FE3562; width:auto; height:18em;padding: 20px"alt="yummi location screen">
+		</div>
+		
+		<p><a href="https://projects.invisionapp.com/share/SNC1FNDMJ#/screens/236875878_After_Selecting_Filter"> Click here to see a demo! </a></p>
+	</div>
+</section>
 <script src="myScript.js" type="text/javascript"></script>
 	</body>
 </html>

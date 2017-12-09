@@ -204,30 +204,37 @@
  	
 }
 
-#firstproject {
+#project {
 	background-color: #CFBCB0;
 }
 
-#firstproject h2 {
+#project h2 {
 	font-size: 30px;
 	color: #433D3E;
 }
 
-#firstproject h3 {
+#project h3 {
 	color: #FE3562;
 	font-variant: normal;
 }
 
-#firstproject p {
+#project p {
 	text-align: center;
 	color: #433D3E;
+	padding: 5px;
 }
 
-#firstproject p a {
+#project p a {
 	text-align: center;
 	color: #FE3562;
 }
 
+.header3 {
+	font-family: Skia;
+	font-weight: bold;
+	font-size: 35px;
+	text-align: center;
+}
 /* */
 
 #contact {
